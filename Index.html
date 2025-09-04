@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sunnydale School</title>
+    <style>
+      #h1
+       {
+         font-size: 45px; 
+         font-weight: bold;
+         color: #1E90FF; 
+         font-family: Arial, sans-serif;
+       }
+       #upcoming-events
+       {
+        background-color: #FFFFE0;
+       }
+       #indoor-id
+       {
+        background-color: #AFEEEE;
+        padding: 5px;
+        border: 5px solid #B0E0E6;
+       }
+       .outdoor-class
+       {
+        background-color: #AFEEEE;
+        padding: 5px;
+        border: 5px solid #B0E0E6;
+       }
+       .contact-class
+       {
+        background-color: #f8f3f3;
+       }
+    </style>
+</head>
+<body>
+    <!--sir Faith ang una ko pong ginawa ay yung instruction na nasa Gclass po
+    pero binago ko po yung bg colors and font colors as states in the end of instuction ay 
+    may freedom na baguhin and mag experiment nang design please po wag niyo po sana bawasan score ko po-->
+    <h1 id="h1">Sunnydale School</h1>
+    <h2 style=" color:#32CD32;">Mission Statement </h2>
+    <h2 style="color: #FFA07A;" id="upcoming-events">Upcoming Events</h2>
+     <ul>
+     <li data-event-type="indoor" title="Event Type: Indoor" id="indoor-id">Science Fair - <span style="font-weight: bold; color: red;">June 10</span></li>
+     <li class="outdoor-class" data-event-type="outdoor" title="Event type: Outdoor">Art Exhibition - <span style="font-weight: bold; color: red;">June 15</span></li>
+     <li class="outdoor-class" data-event-type="outdoor" title="Event Type: Outdoor">Sports Day - <span style="font-weight: bold; color: red;"> June 20</span></li>
+     </ul>
+    <div class="contact-class">
+     <h2 style="color: #20B2AA;">Contact Us</h2>
+     <h3 title="Click to copy email">Sunnydale@mail.com</h3>
+     <h3 title="Click to copy number">09121212211</h3>
+    <button onclick="alert('Thanks for reaching us!')">Click to inform</button>
+    </div>
+</body>
+</html
